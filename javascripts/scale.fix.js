@@ -1,5 +1,6 @@
 var metas = document.getElementsByTagName('meta');
 var i;
+console.log(metas.length)
 if (navigator.userAgent.match(/iPhone/i)) {
   for (i=0; i<metas.length; i++) {
     if (metas[i].name == "viewport") {
